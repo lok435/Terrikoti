@@ -1,6 +1,8 @@
 #!/bin/bash
-if (today =! wednesday)
-    print "go to school"
+today=wednesday
+if [ today != wednesday ]
+then
+    echo "go to school"
 else 
-    print "Happy holiday"
+    echo "Happy holiday"
 fi
