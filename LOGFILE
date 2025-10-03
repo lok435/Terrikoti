@@ -1,0 +1,105 @@
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use "rhc" or "subscription-manager" to register.
+
+Last metadata expiration check: 0:49:00 ago on Fri Oct  3 16:55:04 2025.
+mysql80-community-release-el8-1.noarch.rpm      110 kB/s |  30 kB     00:00    
+Package mysql80-community-release-el8-1.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use "rhc" or "subscription-manager" to register.
+
+Last metadata expiration check: 0:49:01 ago on Fri Oct  3 16:55:04 2025.
+Package git-2.47.3-1.el10_0.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use "rhc" or "subscription-manager" to register.
+
+Last metadata expiration check: 0:51:18 ago on Fri Oct  3 16:55:04 2025.
+mysql80-community-release-el8-1.noarch.rpm      129 kB/s |  30 kB     00:00    
+Package mysql80-community-release-el8-1.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use "rhc" or "subscription-manager" to register.
+
+Last metadata expiration check: 0:51:19 ago on Fri Oct  3 16:55:04 2025.
+Package git-2.47.3-1.el10_0.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use "rhc" or "subscription-manager" to register.
+
+Last metadata expiration check: 1:00:55 ago on Fri Oct  3 16:55:04 2025.
+mysql80-community-release-el8-1.noarch.rpm       23 kB/s |  30 kB     00:01    
+Package mysql80-community-release-el8-1.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use "rhc" or "subscription-manager" to register.
+
+Last metadata expiration check: 1:00:57 ago on Fri Oct  3 16:55:04 2025.
+Package git-2.47.3-1.el10_0.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use "rhc" or "subscription-manager" to register.
+
+Last metadata expiration check: 1:03:49 ago on Fri Oct  3 16:55:04 2025.
+mysql80-community-release-el8-1.noarch.rpm       45 kB/s |  30 kB     00:00    
+Package mysql80-community-release-el8-1.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use "rhc" or "subscription-manager" to register.
+
+Last metadata expiration check: 1:03:51 ago on Fri Oct  3 16:55:04 2025.
+Package git-2.47.3-1.el10_0.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use "rhc" or "subscription-manager" to register.
+
+Last metadata expiration check: 1:04:31 ago on Fri Oct  3 16:55:04 2025.
+mysql80-community-release-el8-1.noarch.rpm      104 kB/s |  30 kB     00:00    
+Package mysql80-community-release-el8-1.noarch is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Updating Subscription Management repositories.
+Unable to read consumer identity
+
+This system is not registered with an entitlement server. You can use "rhc" or "subscription-manager" to register.
+
+Last metadata expiration check: 1:04:32 ago on Fri Oct  3 16:55:04 2025.
+Package git-2.47.3-1.el10_0.x86_64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!

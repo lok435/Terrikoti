@@ -5,8 +5,7 @@ y="\e[31m"
 N="\e[0m"
 
 
-
-
+echo "THIS script name is : $0"
 VALIDATE (){
 
  if [ $1 -ne  0 ]
@@ -17,7 +16,8 @@ VALIDATE (){
     echo -e "$G $2 .. success $N"
  fi
 }
-
+TIMESTAMP=$(date +%F-%H-%M-%S)
+LOGFILE="/tmp/$0-$TIMESTAMP.log"
 ID=$(id -u)
 if [ $ID -ne 0 ]
 then 
@@ -25,13 +25,13 @@ then
 else 
  echo "your root user"
 fi # closing tag for this block
-
-sudo yum install https://dev.mysql.com/get/mysql80-community-release-el8-1.noarch.rpm -y
+ echo "This script is started at : $TIMESTAMP"
+sudo yum install https://dev.mysql.com/get/mysql80-community-release-el8-1.noarch.rpm -y &>> $LOGFILE
 
 VALIDATE $? "installing mysql"
 
 
-yum install git -y
+yum install git -y  &>> $LOGFILE
 VALIDATE $? "installing git"
 
  
