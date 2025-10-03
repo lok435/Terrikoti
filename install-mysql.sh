@@ -3,6 +3,8 @@ R=\e[33m]
 G=\e[32m]
 y=\e[31m]
 N=\e[0m]
+TIMESTAMP=$(date "+%Y-%m-%d %H:%M:%S")
+LOGFILE=/tmp/$TIMESTAMP-$0-loki.log
 
 ID=$(id -u)
 if [ $ID -ne 0 ]
