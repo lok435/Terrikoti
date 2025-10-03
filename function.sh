@@ -1,7 +1,7 @@
 #!/bin/bash
-validate(){
+VALIDATE (){
 
- if [ $1 -ne - 0 ]
+ if [ $1 -ne  0 ]
  then
     echo -e " $R ERROR:: $2 .. is FAILED $N "
     exit 1
