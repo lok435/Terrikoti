@@ -28,11 +28,11 @@ else
 fi 
 for i in $package
 do
- if [ $package -ne 0 ]
- then 
+if [ $package -ne 0 ]
+then 
     yum install $package -y &>> $LOGFILE
     VALIDATE $? "installing $package"
 else
-    echo -e " $Y skipping .. $package is already installed$N"
+    echo -e "$Y skipping .. $package is already installed$N"
 fi
-echo "All arguments passed $@"
+done
