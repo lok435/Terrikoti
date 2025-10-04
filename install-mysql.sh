@@ -24,11 +24,6 @@ then
  echo -e $R "ERROR:: please run this script with root access $N"
 else 
  echo "your root user"
-<<<<<<< HEAD
-=======
-fi
-yum install mysql -y 
->>>>>>> ecce204f14538e4307a029a9c4b30caef2adcb5d
 fi # closing tag for this block
  echo "This script is started at : $TIMESTAMP"
 sudo yum install https://dev.mysql.com/get/mysql80-community-release-el8-1.noarch.rpm -y &>> $LOGFILE
