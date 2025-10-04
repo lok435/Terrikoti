@@ -19,6 +19,7 @@ VALIDATE (){
 }
 TIMESTAMP=$(date +%F-%H-%M-%S)
 LOGFILE="/tmp/$0-$TIMESTAMP.log"
+echo "this scritp started executed time $TIMESTAMP " &>> $LOGFILE
 ID=$(id -u)
 if [ $ID -ne 0 ]
 then 
@@ -26,13 +27,22 @@ then
 else 
  echo "your root user"
 fi 
-for i in $package
+for package in $@ 
 do
+<<<<<<< HEAD
 if [ $package -ne 0 ]
 then 
+=======
+yum list installed $package
+ if [ $package -ne 0 ] 
+>>>>>>> 1f6d1865b7fede41786395184b7747b9e2faae70
     yum install $package -y &>> $LOGFILE
     VALIDATE $? "installing $package"
 else
     echo -e "$Y skipping .. $package is already installed$N"
 fi
+<<<<<<< HEAD
 done
+=======
+done
+>>>>>>> 1f6d1865b7fede41786395184b7747b9e2faae70
