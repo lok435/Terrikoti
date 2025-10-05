@@ -9,5 +9,5 @@ if [ ID -ne 0 ]; then
     echo -e "$R ERROR :: kindly run this script with root user $N"
 exit 1 
 else
-    echo -e "$G your a root user $N"
+    echo -e "$Gyour a root user$N"
 fi
